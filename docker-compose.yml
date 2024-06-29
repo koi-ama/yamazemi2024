@@ -1,9 +1,9 @@
-version: '3'
+version: '3.8'
 services:
   app:
     build: .
-    volumes:
-      - .:/app
     ports:
       - "3000:3000"
-    command: npm run dev
+    volumes:
+      - .:/app
+    command: sh -c "npm run dev"
