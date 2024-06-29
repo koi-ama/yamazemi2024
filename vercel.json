@@ -1,7 +1,4 @@
 {
-    "output": {
-      "public": "./public"
-    },
     "routes": [
       { "src": "/(.*)", "dest": "/" }
     ]
