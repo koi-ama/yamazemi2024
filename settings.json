@@ -1,16 +1,16 @@
 {
-    "css.validate": false,
-    "less.validate": false,
-    "scss.validate": false,
     "tailwindCSS.includeLanguages": {
-      "plaintext": "javascript",
+      "plaintext": "html",
       "javascript": "javascript",
+      "javascriptreact": "javascript",
       "typescript": "typescript",
-      "typescriptreact": "typescriptreact",
-      "javascriptreact": "javascriptreact"
+      "typescriptreact": "typescript"
     },
     "editor.quickSuggestions": {
       "strings": true
     },
-    "tailwindCSS.emmetCompletions": true
+    "tailwindCSS.emmetCompletions": true,
+    "css.validate": false,
+    "scss.validate": false,
+    "less.validate": false
   }
